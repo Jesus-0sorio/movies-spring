@@ -5,7 +5,7 @@ import com.jesus0sorio.movies.model.entity.Movie;
 
 public interface IMovie {
 
-    Movie save(MovieDto movies);
+    Movie save(MovieDto movieDto);
 
     Movie findById(Long id);
 
